@@ -47,3 +47,24 @@ body{
 .relogio span.tempo{
     font-size: 15px;
 }
+
+/* Celulares */
+@media (max-width: 600px) {
+
+    .relogio {
+        height: 150px;
+    }
+
+    .relogio div {
+        width: 90px;
+        height: 120px;
+    }
+
+    .relogio span {
+        font-size: 35px;
+    }
+
+    .relogio span.tempo {
+        font-size: 11px;
+    }
+}
